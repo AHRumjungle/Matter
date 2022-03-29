@@ -1,23 +1,23 @@
 type: GenericCrafter
-name: Matter to Copper Converter
-description: Turns pure matter to copper
+name: Matter to Coal Converter
+description: Turns pure matter to coal
 size: 2
 craftTime: 1
-itemCapacity: 10
+itemCapacity: 20
 hasItems: true
 consumes: {
 	items:{
 		items: [
-		matter/1
+		matter/2
 		]
 	}
 }
 requirements: [
-	copper/100
+	coal/50
 	matter/50
 	
 ]
-outputItem: copper/1
+outputItem: coal/1
 buildVisibility: shown
 category: crafting
-research: copper-matter-creator
+research: coal-matter-creator
