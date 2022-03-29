@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Copper to Matter Conveerer
+description: Turns copper to pure matter
+size: 2
+craftTime: 1
+itemCapacity: 10
+hasItems: true
+consumes: {
+	items:{
+		items: [
+		copper/1
+		]
+	}
+}
+requirements: [
+	copper/100
+	
+]
+outputItem: matter/1
+buildVisibility: shown
+category: crafting
+research: mechanical-drill
