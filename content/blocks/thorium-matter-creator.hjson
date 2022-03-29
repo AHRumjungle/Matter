@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: Thorium to Matter Converter
+description: Turns thorium to pure matter
+size: 2
+craftTime: 1
+itemCapacity: 10
+hasItems: true
+consumes: {
+	items:{
+		items: [
+		thorium/1
+		]
+	}
+}
+requirements: [
+	thorium/100
+	copper/200
+	
+]
+outputItem: matter/5
+buildVisibility: shown
+category: crafting
+research: laser-drill
