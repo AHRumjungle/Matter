@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Matter to Copper Converter
-description: Turns copper to pure matter
+name: Lead to Matter Converter
+description: Turns lead to pure matter
 size: 2
 craftTime: 1
 itemCapacity: 10
@@ -8,16 +8,15 @@ hasItems: true
 consumes: {
 	items:{
 		items: [
-		matter/1
+		lead/1
 		]
 	}
 }
 requirements: [
-	copper/100
-	matter/50
+	lead/100
 	
 ]
-outputItem: copper/1
+outputItem: matter/1
 buildVisibility: shown
 category: crafting
-research: copper-matter-creator
+research: mechanical-drill
