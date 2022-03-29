@@ -3,6 +3,6 @@ displayName: "Matter"
 author: OCRumjungle
 description: "Adds matter to extange materials"
 version: "0.1"
-minGameVersion: "135"
+minGameVersion: "126.1"
 dependencies: [ ]
 hidden: false
