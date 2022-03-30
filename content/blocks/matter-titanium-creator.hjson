@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Matter to Copper Converter
-description: Turns pure matter to copper
+name: Matter to Titanium Converter
+description: Turns pure matter to titanium
 size: 2
 craftTime: 1
 itemCapacity: 10
@@ -8,16 +8,16 @@ hasItems: true
 consumes: {
 	items:{
 		items: [
-		matter/1
+		matter/3
 		]
 	}
 }
 requirements: [
-	copper/100
+	titanium/100
 	matter/50
 	
 ]
-outputItem: copper/1
+outputItem: titanium/1
 buildVisibility: shown
 category: crafting
-research: copper-matter-creator
+research: titanium-matter-creator
