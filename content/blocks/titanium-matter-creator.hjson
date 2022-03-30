@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Titanium to Matter Converter
+description: Turns titanium to pure matter
+size: 2
+craftTime: 1
+itemCapacity: 10
+hasItems: true
+consumes: {
+	items:{
+		items: [
+		titanium/1
+		]
+	}
+}
+requirements: [
+	titanium/100
+	
+]
+outputItem: matter/3
+buildVisibility: shown
+category: crafting
+research: pneumatic-drill
