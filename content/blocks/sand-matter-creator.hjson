@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Sand to Matter Converter
+description: Turns sand to pure matter
+size: 2
+craftTime: 1
+itemCapacity: 10
+hasItems: true
+consumes: {
+	items:{
+		items: [
+		sand/5
+		]
+	}
+}
+requirements: [
+	copper/100
+	
+]
+outputItem: matter/1
+buildVisibility: shown
+category: crafting
+research: mechanical-drill
