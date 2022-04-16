@@ -13,11 +13,11 @@ consumes: {
 		matter/10
 		]
 	}
+	power : 5
 }
 requirements: [
 	copper/100
 	matter/100
-	power/500
 	
 ]
 outputItem: matter/2
