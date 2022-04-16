@@ -20,7 +20,7 @@ requirements: [
 	matter/100
 	
 ]
-outputItem: matter/2
+outputItem: dense-matter/1
 buildVisibility: shown
 category: crafting
 research: copper-matter-creator
