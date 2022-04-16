@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Matter Compressor
+description: Compresses Matter
+size: 2
+craftTime: 1
+itemCapacity: 10
+hasItems: true
+hasPower: true
+
+consumes: {
+	items:{
+		items: [
+		matter/10
+		]
+	}
+}
+requirements: [
+	copper/100
+	matter/100
+	power/500
+	
+]
+outputItem: matter/2
+buildVisibility: shown
+category: crafting
+research: copper-matter-creator
