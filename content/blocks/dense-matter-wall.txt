@@ -1,0 +1,12 @@
+name: Dense Matter Wall
+description: A wall made out of dense matter
+type: Wall
+health: 3200
+
+size: 1
+requirements: [
+ dense-matter/6
+]
+
+category: defense
+research: copper-matter-creator
